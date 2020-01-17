@@ -13,7 +13,7 @@ public class MakeMyTrip {
 		driver.get("https://makemytrip.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.className("makeFlex")).click();
-		driver.findElement(By.id("username")).sendKeys("nivedita199723@gmail.com");
+		driver.findElement(By.id("username")).sendKeys("injiliwalia@gmail.com");
 		driver.findElement(By.cssSelector(".modalLogin")).click();
 			try {
 				Thread.sleep(4000);
