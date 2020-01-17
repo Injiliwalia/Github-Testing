@@ -12,11 +12,11 @@ public class LinkedinProject {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://Linkedin.com");
 		driver.manage().window().maximize();
-		//driver.findElement(By.name("session_key")).sendKeys("nivedita199723@gmail.com");
-		//driver.findElement(By.name("session_password")).sendKeys("applesbaby2/");
+		//driver.findElement(By.name("session_key")).sendKeys("injiliwalia@gmail.com");
+		//driver.findElement(By.name("session_password")).sendKeys("injili@1999/");
 		driver.findElement(By.cssSelector("body > nav > a.nav__button-secondary")).click();
-		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("nivedita199723@gmail.com");
-		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("applesbaby2/");
+		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("injiliwalia@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("injili@1999/");
 		driver.findElement(By.cssSelector("#app__container > main > div > form > div.login__form_action_container > button")).click();
 	}
 
